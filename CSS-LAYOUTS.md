@@ -1,6 +1,10 @@
 # CSS Layout Properties Reference
 
-### **Flexbox Properties Table**
+Flexbox and CSS Grid are powerful layout systems in CSS that allow for flexible, responsive designs. Flexbox is ideal for one-dimensional layouts, where alignment and space distribution between items along a single axis are key. CSS Grid, on the other hand, excels in two-dimensional layouts, allowing for precise control over both rows and columns. The tables below summarize the essential properties of each system, providing a quick reference for their various layout capabilities.
+
+## **Flexbox Properties Table**
+
+For more information and usage please visit: https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
 
 | **Property**            | **Description**                                                  | **Values**                                                                                                                                                   |
 |-------------------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -17,9 +21,10 @@
 | `flex-basis`            | Defines the initial size of a flex item.                        | `auto` (default), length (e.g., `20%`, `300px`)                                                                                                              |
 | `gap`                   | Specifies the spacing between flex items.                       | Length value (e.g., `10px`, `1rem`)                                                                                                                          |
 
----
 
-### **CSS Grid Properties Table**
+## **CSS Grid Properties Table**
+
+For more information and usage please visit: https://www.joshwcomeau.com/css/interactive-guide-to-grid/
 
 | **Property**                | **Description**                                                  | **Values**                                                                                                                           |
 |-----------------------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|

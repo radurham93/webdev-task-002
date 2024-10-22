@@ -1,4 +1,4 @@
-# TASK: Vocabulary List Repository
+# TASK: CSS Layouts
 
 ### Web Development Task 002
 
