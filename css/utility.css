@@ -1,0 +1,48 @@
+/* Utility Styles for Assignment */
+
+:root {
+
+/*
+--red:        255, 089, 094;  
+--yellow:     255, 202, 058;  
+--green:      138, 201, 038;  
+--blue:       025, 130, 196;  
+--purple:     106, 076, 147;  
+*/
+
+--flex-color:   138,201,038;
+--grid-color:   255,202,058;
+
+--text-color:   100,100,100;
+
+}
+
+
+html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+body {
+    color: rgba(var(--text-color), 1)
+}
+
+section {
+    border-bottom: 1px dashed rgba(var(--text-color), 0.25);
+    padding: 2rem;
+    margin: 0.5rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgba(var(--text-color), 1);
+    line-height: 1;
+    margin-bottom: 1.45rem;
+}
+
+p {
+    color: rgba(var(--text-color), 1);
+    line-height: 1.45;
+}
