@@ -1,0 +1,15 @@
+@import url("utility.css");
+
+
+.grid-container {
+    display: grid;
+    gap: 2rem;
+}
+  
+.grid-item {
+    background-color: rgba(var(--grid-color), 0.25);
+    border: 1px solid rgba(var(--grid-color), 1);
+    border-radius: 1rem;
+    padding: 2em;
+}
+  
