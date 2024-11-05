@@ -3,13 +3,16 @@
 
 .grid-container {
     display: grid;
-    gap: 2rem;
+    grid:
+    'footer content header';
+    gap: 5rem;
+    grid-auto-columns: min-content;
 }
   
 .grid-item {
-    background-color: rgba(var(--grid-color), 0.25);
-    border: 1px solid rgba(var(--grid-color), 1);
-    border-radius: 1rem;
-    padding: 2em;
+    background-color: rgba(var(--grid-color), 0.3);
+    border: 8px dotted rgba(var(--grid-color), .8);
+    border-radius: 0rem;
+    padding: 3em;
 }
   
