@@ -8,10 +8,10 @@
 --blue:       038, 084, 124;  
 */
 
---flex-color:   239, 071, 111;
---grid-color:   038, 084, 124;
-
---text-color:   050, 050, 050;
+--flex-color:   119, 200, 231;
+--grid-color:   232, 153, 198;
+--flex-border-color: 8, 102, 133;
+--text-color:   82, 54, 163;
 
 }
 
@@ -19,7 +19,8 @@
 
 html {
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   *, *::before, *::after {
@@ -28,11 +29,11 @@ html {
 
 body {
     color: rgba(var(--text-color), 1);
-    padding: 2rem;
+    padding: 1rem;
 }
 
 section {
-    border-bottom: 1px dashed rgba(var(--text-color), 0.25);
+    border-bottom: 2px dashed rgba(var(--text-color), 0.5);
     padding: 2rem;
     margin: 0.5rem 0;
 }
@@ -40,7 +41,7 @@ section {
 h1, h2, h3, h4, h5, h6 {
     color: rgba(var(--text-color), 1);
     line-height: 1;
-    margin-bottom: 1.45rem;
+    margin-bottom: 2rem;
 }
 
 p {

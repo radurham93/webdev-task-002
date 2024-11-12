@@ -3,26 +3,28 @@
 
 .flex {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
   }
   
   .flex__item {
     background-color: rgba(var(--flex-color), 0.25);
-    border: 1px solid rgba(var(--flex-color), 1);
-    padding: 2em;
-    border-radius: 1rem;
+    border: 3px dashed rgba(var(--flex-color), 1);
+    padding: 4em;
+    border-radius: 6rem;
 
   }
   
+
+
   .grid {
     display: grid;
-    gap: 1rem;
+    gap: 3rem;
   }
   
   .grid__item {
-    background-color: rgba(var(--grid-color), 0.25);
-    border: 1px solid rgba(var(--grid-color), 1);
-    border-radius: 1rem;
-    padding: 2em;
+    background-color: rgba(var(--grid-color), 0.5);
+    border: 3px dashed rgba(var(--grid-color), 1);
+    border-radius: 2rem;
+    padding: 4em;
 }
   
