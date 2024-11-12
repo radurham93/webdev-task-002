@@ -1,12 +1,37 @@
 @import url("reset.css");
 
 
+body {
+    padding: 2rem;
+}
+
 header,
 footer,
 aside,
-article {
+article,
+.column {
     padding: 2rem;
     border: 2px solid #333;
-    width: 80%;
     margin: 2rem auto;
+    border-radius: 0.25rem;
+}
+
+
+@media only screen and (min-width: 800px) {
+
+body {
+    background-color: aqua;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
 }
